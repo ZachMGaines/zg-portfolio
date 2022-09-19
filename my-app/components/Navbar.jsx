@@ -11,7 +11,7 @@ function Navbar() {
           <Image src="/../public/assets/ZGNav.png" alt="/" width='75' height='70' 
           />
           <div>
-            <ul>
+            <ul className='hidden md:flex'>
               <Link href='/'>
                 <li className="ml-10 text-sm uppercase hover:border-b">HOME</li>
               </Link>
@@ -28,7 +28,16 @@ function Navbar() {
                 <li className="ml-10 text-sm uppercase hover:border-b">CONTACT</li>
               </Link>
             </ul>
+            <div>
+
+
+              {/* https://react-icons.github.io/react-icons/ */}
+
+
+              
+            </div>
           </div>
+
         </div>
         
       </div>
