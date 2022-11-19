@@ -1,6 +1,11 @@
-import Image from 'next/image';
+
+
 import React from 'react';
+import ProjectItem from './ProjectItem';
 import movieBytes from '../public/assets/moviebytespic.jpg';
+import tarotReader from '../public/assets/tarotpic2.jpg';
+import techWiz from '../public/assets/techwizpic.jpg';
+import twinPeaks from '../public/assets/twinpeaksbot.jpg';
 
 const Projects = () => {
   return (
@@ -10,9 +15,11 @@ const Projects = () => {
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
 
-          <div className='relative flex items-center justift-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#0082b6bb] to-[#709dff]'>
-            <Image src={movieBytes} alt='/' />
-          </div>
+          <ProjectItem title='Movie Bytes' backgroundImg={movieBytes} projectUrl='/movie' />
+          <ProjectItem title='TechWizQuiz' backgroundImg={techWiz} projectUrl='/techwiz' />
+          <ProjectItem title='Movie Bytes' backgroundImg={twinPeaks} projectUrl='/twinpeaks' />
+          <ProjectItem title='Tarot Reader' backgroundImg={tarotReader} projectUrl='/tarot' />
+
 
 
         </div>
