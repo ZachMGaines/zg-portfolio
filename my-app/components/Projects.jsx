@@ -17,7 +17,7 @@ const Projects = () => {
 
           <ProjectItem title='Movie Bytes' backgroundImg={movieBytes} projectUrl='/movie' />
           <ProjectItem title='TechWizQuiz' backgroundImg={techWiz} projectUrl='/techwiz' />
-          <ProjectItem title='Movie Bytes' backgroundImg={twinPeaks} projectUrl='/twinpeaks' />
+          <ProjectItem title='Twin Peaks' backgroundImg={twinPeaks} projectUrl='/twinpeaks' />
           <ProjectItem title='Tarot Reader' backgroundImg={tarotReader} projectUrl='/tarot' />
 
 
