@@ -1,11 +1,9 @@
-
-
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import movieBytes from '../public/assets/moviebytespic.jpg';
 import tarotReader from '../public/assets/tarotpic2.jpg';
 import techWiz from '../public/assets/techwizpic.jpg';
-import twinPeaks from '../public/assets/twinpeaksbot.jpg';
+import twinPeaks from '../public/assets/twinpeaksapi.jpg';
 
 const Projects = () => {
   return (
